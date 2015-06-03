@@ -15,12 +15,16 @@ seleniumRunner(config, tests, testCallback, endCallback);
 
 // For each browser, you get the result of calling your test (check-title) here
 // You always get the context: browser + called url
-function testCallback(err, context) {
-  console.log('A test finished', arguments);
+function testCallback(err,context) {
+  console.log('A test finished',context);
+  if(err!=null)
+  {
+  	console.log("Error : ",err);
+  }
 }
 
 // Called when all tests have finished/or an error popped while connecting to the grid
 // It will not get called when an error is emitted from a test
 function endCallback(err) {
-  console.log('All tests ended', arguments);
+  console.log('All tests ended', err);
 }

@@ -1,18 +1,34 @@
 {
-  "remoteCfg": {
-    "host": "hub.browserstack.com",
-    "port": 80
-  },
-  "browsers": [{
-      "browserName": "internet explorer",
-      "version": "10.0",
-      "browserstack.user": "<browserstack.user>",
-      "browserstack.key": "<browserstack.key>"
-  }, {
-      "browserName": "chrome",
-      "version": "22.0",
-      "browserstack.user": "<browserstack.user>",
-      "browserstack.key": "<browserstack.key>"
-  }],
-  "concurrency": 2
+    "remoteCfg": {
+        "host": "hub.browserstack.com",
+        "port": 80
+    },
+    "browsers": [{
+        "browserName": "internet explorer",
+        "version": "10.0",
+        "browserstack.user": "apoorvpandit1",
+        "browserstack.key": "FMjz8ktFhkzd6BWGWBqH"
+    }, {
+        "browserName": "firefox",
+        "browser_version": "35.0",
+        "os": "Windows",
+        "os_version": "XP",
+        "browserstack.user": "apoorvpandit1",
+        "browserstack.key": "FMjz8ktFhkzd6BWGWBqH"
+    }, {
+        "browserName": "firefox",
+        "browser_version": "33.0",
+        "os": "Windows",
+        "os_version": "XP",
+        "browserstack.user": "apoorvpandit1",
+        "browserstack.key": "FMjz8ktFhkzd6BWGWBqH"
+    }, {
+        "browserName": "firefox",
+        "browser_version": "32.0",
+        "os": "Windows",
+        "os_version": "XP",
+        "browserstack.user": "apoorvpandit1",
+        "browserstack.key": "FMjz8ktFhkzd6BWGWBqH"
+    }],
+    "concurrency": 1
 }
